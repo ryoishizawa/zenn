@@ -3,7 +3,7 @@ title: "WSL2のターミナルで色が正常に表示されない時の解消�
 emoji: "⛳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["wsl"]
-published: false
+published: true
 ---
 
 # 問題
