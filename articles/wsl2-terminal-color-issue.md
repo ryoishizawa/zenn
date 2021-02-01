@@ -30,7 +30,7 @@ https://github.com/microsoft/WSL/issues/2067#issuecomment-299622057
 
 最終的に、`~/.bash_profile` に以下のコードを追加することで解消できた。
 
-```
+```bash:.bash_profile
 if [[ -f ~/.bashrc ]] ; then
   . ~/.bashrc
 fi
