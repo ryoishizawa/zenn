@@ -1,5 +1,5 @@
 ---
-title: "WSL2のターミナルで色が正常に表示されない時の解消方法"
+title: "WSL2のターミナルで色が表示されない時の解消方法"
 emoji: "⛳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["wsl"]
