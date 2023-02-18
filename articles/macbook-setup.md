@@ -18,13 +18,40 @@ System Setting > Keyboard > Text Input > Input Source > Edit > Turn off “Corre
 
 Dock - remove unnecessary icons (e.g. pages, numbers)
 
+# Homebrew
+* https://brew.sh/
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+上記のコマンドだけだと足りず、以下も実行してPATHに追加する必要がある。（これをしないと、`brew` コマンドが動かない）
+
+```
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/username/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 # まず入れる
 
+* 使っていれば、パスワード管理ツール (1Passwordなど)
 * Chrome
 * Zoom
 * Slack
-* nodejs
+* Spotify
+* Notion
+* Inkdrop
+* NordVPN
+* Kindle
+* VS Code
+* IntelliJ
 
+Homebrewを使えば、インストールが楽になる（途中で気付いた）。
+例えば、Notionを入れたいなら以下のコマンド一発でインストールできる。
+
+```
+brew install --cask notion
+```
 
 # GitHub
 
@@ -39,9 +66,11 @@ git config --global user.name "name"
 
 # Zenn
 
+* nodejs
+
 ```
-nom install
-npc zenn new:article
+npm install
+npx zenn new:article
 ```
 
 # Zoom
@@ -51,12 +80,25 @@ Setting > Audio
 > Mute my mic when joining a meeting
 > Automatically join computer audio when joining a meeting
 
+# 便利ツール
+
+* MonitorControl
+  * 外付けディスプレイの画面調整ができるのが最高すぎる
+* RunCat
+  * System Info で色々設定できる
+* Raycast
+  * Spotlight Search としても利用したいので、Keyboard shortcut > Spotlight > "Show Spotlight search" をオフにする
+
+
+# OpenJDK
+
+後々使いそうな気がするので入れておいた。
+
+```
+brew install openjdk@17
+brew install openjdk@11
+```
+
 # Logi options
 
 logitech.com/en-us/setup/ergosetup/logi-options.html
-
-# 便利ツール
-
-* MonitorControll
-* RunCat
-* 
