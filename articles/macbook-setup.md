@@ -6,7 +6,9 @@ topics: ["mac"]
 published: false
 ---
 
-[Today I Learned というPodcastの第56回](https://anchor.fm/todayilearnedfm/episodes/56--mac-e1kv1hc/a-a58emu)でMacのセットアップについて紹介されていて面白かったので、自分も書いてみることにした。
+Today I Learned というPodcastの第56回でMacのセットアップについて紹介されていて面白かったので、自分も書いてみることにした。
+
+https://anchor.fm/todayilearnedfm/episodes/56--mac-e1kv1hc/a-a58emu
 
 最近、新しいMacBookを購入した。サクサク動いてとても良い！
 
@@ -93,6 +95,13 @@ Setting > Audio
 * Raycast
   * Spotlight Search としても利用したいので、Keyboard shortcut > Spotlight > "Show Spotlight search" をオフにする
 
+## Video Speed Controller
+
+https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en
+
+動画の速度を調整できるChrome Extention。YouTubeやUdemy等では標準で速度調整ができるので必要か？と思ってたのだけど、このツイートの英語を聞き取りたくて入れた。
+
+https://twitter.com/DB_Daijiro/status/1627222586567589890
 
 # OpenJDK
 
