@@ -1,12 +1,16 @@
 ---
-title: "新しいMacをゼロからセットアップ"
-emoji: "🐙"
+title: "MacBookをゼロからセットアップした"
+emoji: "👨‍💻"
 type: "idea" # tech: 技術記事 / idea: アイデア
-topics: []
+topics: ["mac"]
 published: false
 ---
 
-Mac set up
+[Today I Learned というPodcastの第56回](https://anchor.fm/todayilearnedfm/episodes/56--mac-e1kv1hc/a-a58emu)でMacのセットアップについて紹介されていて面白かったので、自分も書いてみることにした。
+
+最近、新しいMacBookを購入した。サクサク動いてとても良い！
+
+https://twitter.com/ryoishizawa/status/1626532483721465856?s=20
 
 # システム設定（System Setting）
 
