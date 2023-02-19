@@ -91,18 +91,37 @@ Setting > Audio
 
 # 便利ツール
 
-* MonitorControl
-  * 外付けディスプレイの画面調整ができるのが最高すぎる
-* RunCat
-  * System Info で色々設定できる
-* Raycast
-  * Spotlight Search としても利用したいので、Keyboard shortcut > Spotlight > "Show Spotlight search" をオフにする
+## MonitorControl
+
+https://github.com/MonitorControl/MonitorControl
+
+外付けディスプレイの画面調整ができるのが最高すぎる。
+
+## RunCat
+
+https://kyome.io/runcat/index.html
+
+PCのメモリやCPUの状態を把握するのに便利。M1以降だとPCのパフォーマンスが良いのでそんなに要らないかもしれないが、見た目的にも面白いので引き続き入れてる。
+
+## Raycast
+
+https://www.raycast.com/
+
+もう定番になっている気がする。
+
+設定：Spotlight Searchとしても利用したいので、System Setting > Keyboard shortcut > Spotlight > "Show Spotlight search" をオフにし、Command + Spaceをショートカットに設定している。
+
+## CleanShot
+
+https://cleanshot.com/
+
+スクリーンショットやスクリーン上で動画を撮るときに便利で、編集を簡単にできてとても便利。仕事でもよく使ってて、もう手放せない。
 
 ## Video Speed Controller
 
 https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfgbnbgppjihopabppdk?hl=en
 
-動画の速度を調整できるChrome Extention。YouTubeやUdemy等では標準で速度調整ができるので必要か？と思ってたのだけど、このツイートの英語を聞き取りたくて入れた。
+動画の速度を調整できるChrome Extention。YouTubeやUdemy等では標準で速度調整ができるので「本当に必要か？」と思ってたのだけど、このツイートの英語を聞き取りたくて入れた。入れてみると確かに便利だなと感じる。
 
 https://twitter.com/DB_Daijiro/status/1627222586567589890
 
