@@ -25,13 +25,16 @@ System Setting > Keyboard > Text Input > Input Source > Edit > Turn off “Corre
 Dock - remove unnecessary icons (e.g. pages, numbers)
 
 # Homebrew
-* https://brew.sh/
+
+最初に入れておくと、あとで色々インストールする際にコマンドでできることが多いので便利。
+
+https://brew.sh/
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
-上記のコマンドだけだと足りず、以下も実行してPATHに追加する必要がある。（これをしないと、`brew` コマンドが動かない）
+自分の環境では上記のコマンドだけだと足りず、以下も実行してPATHに追加する必要があった。（これをしないと、`brew` コマンドが動かない）
 
 ```
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/username/.zprofile
