@@ -125,13 +125,14 @@ https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfg
 
 https://twitter.com/DB_Daijiro/status/1627222586567589890
 
-# OpenJDK
+# OpenJDK, Scala
 
 後々使いそうな気がするので入れておいた。
 
 ```
 brew install openjdk@17
 brew install openjdk@11
+brew install scala
 ```
 
 # Logi options
