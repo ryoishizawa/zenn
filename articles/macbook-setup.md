@@ -14,6 +14,8 @@ https://anchor.fm/todayilearnedfm/episodes/56--mac-e1kv1hc/a-a58emu
 
 https://twitter.com/ryoishizawa/status/1626532483721465856?s=20
 
+ちなみに自分はOSの設定とキーボードは英語にしているので、日本語を使った場合は不要な設定もいくつか混じっているが、ご容赦いただけると。
+
 # システム設定（System Setting）
 
 System Setting > Track Pad > Tap to Click
@@ -84,10 +86,32 @@ npx zenn new:article
 
 # Zoom
 
+インストールするのは当然として、初期設定のまま使っている人を結構見かける。個人的にはいくつかデフォルトから変えておくべきだと思っている。
+
 Setting > Video > Stop my video when joining a meeting
 Setting > Audio 
 > Mute my mic when joining a meeting
 > Automatically join computer audio when joining a meeting
+
+# zsh
+
+Terminal用にはoh-my-zshを使っている。Terminal内でGitのどのブランチにいるのか等がぱっと見えるのが便利なのと、あとは単純に見た目が良くなる。
+
+https://ohmyz.sh/#install
+
+自分で好きなテーマを設定できるので、ここから探してみると良いかと思う。
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+# OpenJDK, Scala
+
+私はバックエンドエンジニアでJavaやScalaを書いているのでインストール。
+
+```
+brew install openjdk@17
+brew install openjdk@11
+brew install coursier/formulas/coursier && cs setup
+```
 
 # 便利ツール
 
@@ -107,7 +131,7 @@ PCのメモリやCPUの状態を把握するのに便利。M1以降だとPCの�
 
 https://www.raycast.com/
 
-もう定番になっている気がする。
+もう定番になっている（？）便利ツール。
 
 設定：Spotlight Searchとしても利用したいので、System Setting > Keyboard shortcut > Spotlight > "Show Spotlight search" をオフにし、Command + Spaceをショートカットに設定している。
 
@@ -125,16 +149,22 @@ https://chrome.google.com/webstore/detail/video-speed-controller/nffaoalbilbmmfg
 
 https://twitter.com/DB_Daijiro/status/1627222586567589890
 
-# OpenJDK, Scala
+## DeepL
 
-後々使いそうな気がするので入れておいた。
+おなじみの翻訳ツール。
 
-```
-brew install openjdk@17
-brew install openjdk@11
-brew install scala
-```
+Chrome Extentionもある。Proになるとページを全て翻訳することもできるらしい。
 
-# Logi options
+https://chrome.google.com/webstore/detail/deepl-translate-reading-w/cofdbpoegempjloogbagkncekinflcnj/related
+
+## Logi options
+
+自分が使っているLogicoolのマウス用のアプリ。
 
 logitech.com/en-us/setup/ergosetup/logi-options.html
+
+## Karabiner-Elements
+
+https://karabiner-elements.pqrs.org/
+
+キーマップを変更できる便利アプリ。
