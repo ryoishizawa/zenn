@@ -95,6 +95,10 @@ Setting > Audio
 
 # zsh
 
+シェルの設定。
+
+## oh-my-zsh
+
 Terminal用にはoh-my-zshを使っている。Terminal内でGitのどのブランチにいるのか等がぱっと見えるのが便利なのと、あとは単純に見た目が良くなる。
 
 https://ohmyz.sh/#install
@@ -103,9 +107,21 @@ https://ohmyz.sh/#install
 
 https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 
+## zsh-autosuggestions
+
+https://github.com/zsh-users/zsh-autosuggestions
+
+コマンドをサジェストしてくれるプラグイン。
+
+## zsh-syntax-highlighting
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
+こちらはコマンドをハイライトしてくれるプラグイン。
+
 # OpenJDK, Scala
 
-私はバックエンドエンジニアでJavaやScalaを書いているのでインストール。
+私はバックエンドエンジニアでJavaやScalaを書いているので、とりあえずインストール。
 
 ```
 brew install openjdk@17
