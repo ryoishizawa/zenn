@@ -10,7 +10,7 @@ Today I Learned というPodcastの第56回でMacのセットアップについ�
 
 https://anchor.fm/todayilearnedfm/episodes/56--mac-e1kv1hc/a-a58emu
 
-2月に新しいMacBookを買ってから記事を書いていたのだけど、下書きの状態で半年弱眠らせてしまった…。なので、今見ると設定の文言が変わったりしているかもしれない。
+2月に新しいMacBookを買ってから記事を書いていたのだけど、下書きの状態で半年弱眠らせてしまった…。なので、今見ると設定の文言が変わったりしているかもしれない（OSはVenture）。
 
 https://twitter.com/ryoishizawa/status/1626532483721465856?s=20
 
@@ -175,7 +175,7 @@ https://chrome.google.com/webstore/detail/deepl-translate-reading-w/cofdbpoegemp
 
 自分が使っているLogicoolのマウス用のアプリ。
 
-logitech.com/en-us/setup/ergosetup/logi-options.html
+https://logitech.com/en-us/setup/ergosetup/logi-options.html
 
 ## Karabiner-Elements
 
