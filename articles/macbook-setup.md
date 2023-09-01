@@ -1,5 +1,5 @@
 ---
-title: "MacBookをゼロからセットアップした"
+title: "MacBookを買った時に行うセットアップ"
 emoji: "👨‍💻"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: ["mac"]
@@ -10,7 +10,7 @@ Today I Learned というPodcastの第56回でMacのセットアップについ�
 
 https://anchor.fm/todayilearnedfm/episodes/56--mac-e1kv1hc/a-a58emu
 
-最近、新しいMacBookを購入した。サクサク動いてとても良い！
+2月に新しいMacBookを買ってから記事を書いていたのだけど、下書きの状態で半年弱眠らせてしまった…。なので、今見ると設定の文言が変わったりしているかもしれない。
 
 https://twitter.com/ryoishizawa/status/1626532483721465856?s=20
 
@@ -18,13 +18,13 @@ https://twitter.com/ryoishizawa/status/1626532483721465856?s=20
 
 # システム設定（System Setting）
 
-System Setting > Track Pad > Tap to Click
+他にも使いつつ設定をいじっている気がしますが、まずは以下の設定。
 
-System Setting > General > Language & Region > Add japanese
+* Track Pad > Tap to Click（トラックパットでタップしたときはクリックとして認識する）
+* General > Language & Region > Add japanese（日本語を追加）
+* Keyboard > Text Input > Input Source > Edit > Turn off “Correct spelling automatically” and “Capitalise words automatically”（入力の自動補正をオフ）
 
-System Setting > Keyboard > Text Input > Input Source > Edit > Turn off “Correct spelling automatically” and “Capitalise words automatically”
-
-Dock - remove unnecessary icons (e.g. pages, numbers)
+あとは、Dock上で普段使わないアイコン（Pages, Numbersなど）は削除する。
 
 # Homebrew
 
@@ -45,7 +45,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # まず入れる
 
-* 使っていれば、パスワード管理ツール (1Passwordなど)
+* パスワード管理ツール (1Passwordなど)
 * Chrome
 * Zoom
 * Slack
@@ -77,7 +77,7 @@ git config --global user.name "name"
 
 # Zenn
 
-* nodejs
+Zennの前に、まずnodejsを入れておく必要がある。
 
 ```
 npm install
@@ -88,14 +88,12 @@ npx zenn new:article
 
 インストールするのは当然として、初期設定のまま使っている人を結構見かける。個人的にはいくつかデフォルトから変えておくべきだと思っている。
 
-Setting > Video > Stop my video when joining a meeting
-Setting > Audio 
-> Mute my mic when joining a meeting
-> Automatically join computer audio when joining a meeting
+* Setting > Video > Stop my video when joining a meeting
+* Setting > Audio 
+  * Mute my mic when joining a meeting（ミーティングに参加したときにマイクをミュートにする）
+  * Automatically join computer audio when joining a meeting（ミーティングに参加したときに自動で音が入るようにする）
 
 # zsh
-
-シェルの設定。
 
 ## oh-my-zsh
 
@@ -184,3 +182,5 @@ logitech.com/en-us/setup/ergosetup/logi-options.html
 https://karabiner-elements.pqrs.org/
 
 キーマップを変更できる便利アプリ。
+
+他にも色々入れているものがある気がするが、一旦ここまで。次またセットアップする機会があればまた書きたい。
