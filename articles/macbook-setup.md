@@ -184,4 +184,8 @@ https://karabiner-elements.pqrs.org/
 
 キーマップを変更できる便利アプリ。
 
+設定のImport/Exportもできるので、新しいPCを買ったときにも簡単に移行できる。
+
+https://karabiner-elements.pqrs.org/docs/manual/operation/export/
+
 他にも色々入れているものがある気がするが、一旦ここまで。次またセットアップする機会があればまた書きたい。
