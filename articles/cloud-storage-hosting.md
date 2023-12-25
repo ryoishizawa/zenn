@@ -43,3 +43,27 @@ https://cloud.google.com/storage/docs/hosting-static-website
 * wwwのCNAMEレコードを削除し、Aレコードでwwwの設定を自分のIPアドレスに接続するようにする
 
 自分の場合は1つ目の手法を選択し、無事wwwが付いたURLでも接続できるようになった。
+
+# 追記
+
+Cloud Storageでバケットにファイルをアップロードしてインターネットに公開した際、バケットのURLを入れるとXMLでファイル一覧が表示されるのが気にかかっていた。
+
+![](/images/cloud-storage-xml.png)
+
+このXMLでのファイル一覧を表示しないようにするには、バケット詳細ページ > 権限 から権限の変更をする。
+
+「allUsers」の設定箇所で編集ボタン（鉛筆のアイコン）をクリックする。
+
+![](/images/cloud-storage-setting-1.png)
+
+権限を、Cloud Storage レガシー > Storage レガシー オブジェクト読み取り に変更する。
+
+![](/images/cloud-storage-setting-2.png)
+
+この設定をすることで、XMLでの表示が「Access Denied」になる。
+
+![](/images/cloud-storage-xml-403.png)
+
+この設定は、こちらの記事を参考にさせて頂きました。（記事は2021年のものですが、2023年でも同じく設定できました）
+
+https://zenn.dev/catnose99/articles/18720e3af36d22
