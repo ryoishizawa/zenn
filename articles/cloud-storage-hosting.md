@@ -3,7 +3,7 @@ title: "Cloud Storageに静的ページをホストする"
 emoji: "🌐"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["googlecloud"]
-published: false
+published: true
 ---
 
 Google Cloud公式で詳しく丁寧に書かれているので記事にするほどでも無いが、ドメインを取得してCloud Storageでページをホストする方法を簡単にメモ。
@@ -44,7 +44,7 @@ https://cloud.google.com/storage/docs/hosting-static-website
 
 自分の場合は1つ目の手法を選択し、無事wwwが付いたURLでも接続できるようになった。
 
-# 追記
+# 参考: Cloud Storageでのファイル一覧を非表示にする
 
 Cloud Storageでバケットにファイルをアップロードしてインターネットに公開した際、バケットのURLを入れるとXMLでファイル一覧が表示されるのが気にかかっていた。
 
@@ -64,6 +64,6 @@ Cloud Storageでバケットにファイルをアップロードしてインタ�
 
 ![](/images/cloud-storage-xml-403.png)
 
-この設定は、こちらの記事を参考にさせて頂きました。（記事は2021年のものですが、2023年でも同じく設定できました）
+この設定は、こちらの記事を参考にさせて頂きました。（記事は2021年のものですが、2023年12月時点でも同じく設定できました）
 
 https://zenn.dev/catnose99/articles/18720e3af36d22
