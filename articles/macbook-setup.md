@@ -23,9 +23,51 @@ https://twitter.com/ryoishizawa/status/1626532483721465856?s=20
 
 * Track Pad > Tap to Click（トラックパットでタップしたときはクリックとして認識する）
 * General > Language & Region > Add japanese（日本語を追加）
-* Keyboard > Text Input > Input Source > Edit > Turn off “Correct spelling automatically” and “Capitalise words automatically”（入力の自動補正をオフ）
+* Keyboard > Text Input > Input Source > Edit > 以下の設定をオフ
+  * Correct spelling automatically （スペルの自動修正）
+  * Capitalise words automatically （自動で大文字になる設定）
+  * Add full stop with double-space （スペースを2回タイプしたときに英語だとドットが打たれる）
 
 あとは、Dock上で普段使わないアイコン（Pages, Numbersなど）は削除する。
+
+# Terminal
+
+* iTerm
+* zshを有効化 `chsh -s /bin/zsh`
+
+## oh-my-zsh
+
+Terminal用にはoh-my-zshを使っている。Terminal内でGitのどのブランチにいるのか等がぱっと見えるのが便利なのと、あとは単純に見た目が良くなる。
+
+https://ohmyz.sh/#install
+
+自分で好きなテーマを設定できるので、ここから探してみると良いかと思う。
+
+https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+
+テーマを設定する際は、`.zshrc` ファイル内の `ZSH_THEME` を編集する。
+
+```
+vi ~/.zshrc
+
+# テーマを変更
+ZSH_THEME="sonicradish"
+
+# .zshrc ファイルを現在のターミナルに反映させる
+source ~/.zshrc
+```
+
+## zsh-autosuggestions
+
+https://github.com/zsh-users/zsh-autosuggestions
+
+コマンドをサジェストしてくれるプラグイン。
+
+## zsh-syntax-highlighting
+
+https://github.com/zsh-users/zsh-syntax-highlighting
+
+こちらはコマンドをハイライトしてくれるプラグイン。
 
 # Homebrew
 
@@ -93,30 +135,6 @@ npx zenn new:article
 * Setting > Audio 
   * Mute my mic when joining a meeting（ミーティングに参加したときにマイクをミュートにする）
   * Automatically join computer audio when joining a meeting（ミーティングに参加したときに自動で音が入るようにする）
-
-# zsh
-
-## oh-my-zsh
-
-Terminal用にはoh-my-zshを使っている。Terminal内でGitのどのブランチにいるのか等がぱっと見えるのが便利なのと、あとは単純に見た目が良くなる。
-
-https://ohmyz.sh/#install
-
-自分で好きなテーマを設定できるので、ここから探してみると良いかと思う。
-
-https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-
-## zsh-autosuggestions
-
-https://github.com/zsh-users/zsh-autosuggestions
-
-コマンドをサジェストしてくれるプラグイン。
-
-## zsh-syntax-highlighting
-
-https://github.com/zsh-users/zsh-syntax-highlighting
-
-こちらはコマンドをハイライトしてくれるプラグイン。
 
 # OpenJDK, Scala
 
